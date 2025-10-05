@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>1-Week Website Development Demo Class | Code with Oba</title>
+  <style>
+    /* ============ GLOBAL STYLES ============ */
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: "Poppins", sans-serif;
+    }
+
+    body {
+      background-color: #f9fafb;
+      color: #111827;
+      line-height: 1.7;
+    }
+
+    header {
+      background: linear-gradient(135deg, #2563eb, #1e3a8a);
+      color: #fff;
+      text-align: center;
+      padding: 3rem 1rem;
+      border-bottom-left-radius: 30px;
+      border-bottom-right-radius: 30px;
+    }
+
+    header h1 {
+      font-size: 2.2rem;
+      margin-bottom: 0.5rem;
+    }
+
+    header p {
+      font-size: 1.1rem;
+      opacity: 0.95;
+    }
+
+    nav {
+      background: #1e3a8a;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      padding: 0.8rem;
+      gap: 10px;
+    }
+
+    nav a {
+      color: #fff;
+      background-color: #2563eb;
+      text-decoration: none;
+      padding: 0.6rem 1rem;
+      border-radius: 6px;
+      font-weight: 500;
+      transition: 0.3s;
+    }
+
+    nav a:hover {
+      background-color: #1e40af;
+    }
+
+    main {
+      max-width: 900px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+
+    section {
+      background: #fff;
+      padding: 2rem;
+      margin-bottom: 2rem;
+      border-radius: 16px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    }
+
+    section h2 {
+      color: #1d4ed8;
+      margin-bottom: 1rem;
+      border-left: 5px solid #2563eb;
+      padding-left: 10px;
+    }
+
+    ul {
+      margin-top: 0.5rem;
+      margin-left: 1.3rem;
+    }
+
+    ul li {
+      margin-bottom: 0.5rem;
+    }
+
+    .project {
+      background: #f0f9ff;
+      border-left: 5px solid #2563eb;
+      padding: 1rem;
+      border-radius: 8px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1.2rem;
+      background-color: #1e3a8a;
+      color: #fff;
+      margin-top: 3rem;
+      border-top-left-radius: 30px;
+      border-top-right-radius: 30px;
+    }
+
+    @media (max-width: 700px) {
+      header h1 {
+        font-size: 1.6rem;
+      }
+      section {
+        padding: 1.5rem;
+      }
+      nav a {
+        font-size: 0.9rem;
+        padding: 0.5rem 0.8rem;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>1-Week Website Development intro Class with John Obaloluwa</h1>
+    <p>Learn HTML & CSS by Building Real Projects – with Code with Oba</p>
+  </header>
+
+  <nav>
+    <a href="#day1">Day 1</a>
+    <a href="#day2">Day 2</a>
+    <a href="#day3">Day 3</a>
+    <a href="#day4">Day 4</a>
+    <a href="#day5">Day 5</a>
+    <a href="#day6">Day 6</a>
+    <a href="#day7">Day 7</a>
+  </nav>
+
+  <main>
+    <!-- DAY 1 -->
+    <section id="day1">
+      <h2>Day 1 – Introduction to Web Development</h2>
+      <ul>
+        <li>What is a website? (Frontend vs Backend)</li>
+        <li>How browsers work</li>
+        <li>Introduction to HTML & CSS</li>
+        <li>Setting up VS Code and Live Server</li>
+        <li>Basic structure of an HTML document</li>
+      </ul>
+      <div class="project">
+        <strong>Mini Project:</strong> Create your first web page that displays <em>Hello World!</em>
+      </div>
+    </section>
+
+    <!-- DAY 2 -->
+    <section id="day2">
+      <h2>Day 2 – HTML Basics</h2>
+      <ul>
+        <li>Headings, Paragraphs, and Line Breaks</li>
+        <li>Links and Images</li>
+        <li>Lists: Ordered and Unordered</li>
+        <li>Tables and Forms</li>
+        <li>HTML attributes (href, src, alt, etc.)</li>
+      </ul>
+      <div class="project">
+        <strong>Mini Project:</strong> Build a simple personal bio page using headings, paragraphs, and images.
+      </div>
+    </section>
+
+    <!-- DAY 3 -->
+    <section id="day3">
+      <h2>Day 3 – Semantic HTML</h2>
+      <ul>
+        <li>Meaning of semantic tags</li>
+        <li>Using &lt;header&gt;, &lt;nav&gt;, &lt;main&gt;, &lt;footer&gt;</li>
+        <li>Sectioning content properly</li>
+        <li>Importance for SEO and accessibility</li>
+      </ul>
+      <div class="project">
+        <strong>Mini Project:</strong> Structure a webpage for a “Tech News Blog” using semantic tags.
+      </div>
+    </section>
+
+    <!-- DAY 4 -->
+    <section id="day4">
+      <h2>Day 4 – CSS Basics</h2>
+      <ul>
+        <li>How to link CSS to HTML</li>
+        <li>Selectors, properties, and values</li>
+        <li>Colors, borders, and backgrounds</li>
+        <li>Margins and padding (box model)</li>
+        <li>Typography basics (fonts, sizes, spacing)</li>
+      </ul>
+      <div class="project">
+        <strong>Mini Project:</strong> Style your bio page with colors, borders, and font styles.
+      </div>
+    </section>
+
+    <!-- DAY 5 -->
+    <section id="day5">
+      <h2>Day 5 – CSS Layout & Flexbox</h2>
+      <ul>
+        <li>Display types (block, inline, inline-block)</li>
+        <li>Introduction to Flexbox</li>
+        <li>Centering items with Flexbox</li>
+        <li>Creating simple navigation bars</li>
+        <li>Responsive layouts with Flexbox</li>
+      </ul>
+      <div class="project">
+        <strong>Mini Project:</strong> Design a responsive 3-column feature section using Flexbox.
+      </div>
+    </section>
+
+    <!-- DAY 6 -->
+    <section id="day6">
+      <h2>Day 6 – Building a Simple Website</h2>
+      <ul>
+        <li>Combining HTML and CSS</li>
+        <li>Header, Hero, About, and Contact sections</li>
+        <li>Using divs and containers effectively</li>
+        <li>Adding hover effects and spacing</li>
+        <li>Making the website responsive</li>
+      </ul>
+      <div class="project">
+        <strong>Mini Project:</strong> Create a small “Portfolio Website” using everything learned so far.
+      </div>
+    </section>
+
+    <!-- DAY 7 -->
+    <section id="day7">
+      <h2>Day 7 – Finishing Touches</h2>
+      <ul>
+        <li>Improving website design and layout</li>
+        <li>Adding favicon and titles</li>
+        <li>Understanding website publishing (hosting and domain)</li>
+        <li>Showcasing your project</li>
+        
+      </ul>
+      <div class="project">
+        <strong>Mini Project:</strong> Finalize and present your demo website.
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Code with Oba | Designed for web Development Class Students</p>
+  </footer>
+</body>
+</html>
